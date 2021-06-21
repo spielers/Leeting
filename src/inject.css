@@ -1,0 +1,11 @@
+.lc-icon {
+  width: 20px;
+  height: 20px;
+  min-height: 10px !important;
+}
+.lc-icon-big {
+  width: 40px;
+  height: 40px;
+  min-height: 10px !important;
+}
+/* For Inserting it to the browser */

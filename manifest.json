@@ -1,0 +1,43 @@
+{
+  "name": "Leeting",
+  "description": "A extension to find Pepcoding and Interviewbit problems on OG Leetcode",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/icons/16px.png",
+    "32": "/icons/32px.png",
+    "128": "/icons/128px.png"
+  },
+  "action": {
+    "default_title": "Leeting",
+    "default_icon": {
+      "16": "/icons/16px.png",
+      "32": "/icons/32px.png",
+      "128": "/icons/128px.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://www.interviewbit.com/*","https://www.pepcoding.com/resources/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.interviewbit.com/*"],
+      "css": ["src/inject.css"],
+      "js": ["js/jquery-3.6.0.min.js","js/background.js"]
+    },
+    {
+      "matches": ["https://www.pepcoding.com/resources/*"],
+      "css": ["src/inject.css"],
+      "js": ["js/jquery-3.6.0.min.js","js/background.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "icons/*", "data/*" ],
+      "matches": [ "https://www.interviewbit.com/*" ]
+    },
+    {
+      "resources": [ "icons/*", "data/*"],
+      "matches": [ "https://www.pepcoding.com/*" ]
+    }
+  ]
+}
