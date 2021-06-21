@@ -2,6 +2,16 @@
 
 An extension to find Pepcoding and Interviewbit problems on OG Leetcode
 
+## Motivation
+
+Placement seasons are coming, and we as a whole are preparing for it.
+First thing when you search online about the preparation in a single month a webpage popups Interviewbit.com 
+yet, it sucks in UI in spite of the fact that they are making an honest effort to defeat that with the new UI however, shockingly I don't like that LOL!
+
+Alright, we have an answer for that, search the same questions on OG of
+interview preparation leetcode.com and solve it over there.
+simple.!!!
+
 ##
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
