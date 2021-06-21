@@ -1,6 +1,6 @@
 # Leeting
 
-A extension to find Pepcoding and Interviewbit problems on OG Leetcode
+An extension to find Pepcoding and Interviewbit problems on OG Leetcode
 
 ##
 
